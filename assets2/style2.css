@@ -238,4 +238,60 @@ body {
       
   }
 
-  @media screen and (max-width: )
+  @media screen and (max-width: 768px) {
+    .main-section {
+        width: 85%;
+    }
+    .container {
+        width: 90%;
+    }
+    #main-container {
+        width: 850px;
+    }
+    .work {
+        width: 300px;
+    }
+    
+    .work h3 {
+        font-size: 15px;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+  .main-section {
+      width: 70%;
+      float: left;
+  }
+  .container {
+      width: 90%;
+  }
+  #main-container {
+      width: 850px;
+  }
+  .work {
+      width: 300px;
+  }
+  
+  .work h3 {
+      font-size: 15px;
+  }
+  nav {
+    float: none;
+    margin-left: 100px;
+  }
+
+  p {
+    float: left;
+  }
+  
+  .auth-image {
+    margin-left: 100px;
+    width: 300px;
+  }
+  
+  #logo {
+    width: 100%;
+  }
+}
